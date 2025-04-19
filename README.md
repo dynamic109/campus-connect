@@ -1,0 +1,1 @@
+Students on campus want to discover, share and keep track of upcoming events like meetups, study groups, or hackathons. Campus Connect is a simple platform where any student can create an event, and all students can view them.

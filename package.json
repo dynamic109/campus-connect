@@ -1,0 +1,16 @@
+{
+  "name": "campus-connect",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Jethro and Emmanuel",
+  "license": "ISC",
+  "type": "module",
+  "description": "Campus Connect is a simple platform where any student can create an event, and all students can view them.",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
