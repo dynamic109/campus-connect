@@ -1,4 +1,5 @@
 import express from "express";
+import getEvents from "./getEvents.js";
 
 const app = express();
 
@@ -13,5 +14,7 @@ app.post("/api/connect", (req, res) => {
 });
 
 app.listen(3000, () => {
-  console.log("Server running");
+  console.log("Sever running");
 });
+
+getEvents();
