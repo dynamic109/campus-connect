@@ -1,3 +1,5 @@
-export default function getEvents() {
-  console.log("getEvents called");
+export default function getEvents(app) {
+  app.get("/", (req, res) => {
+    res.send("Hello World");
+  });
 }
