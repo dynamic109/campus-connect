@@ -1,26 +1,14 @@
-import fs from 'fs';
-import path from 'path';
+import { readEvents, writeEvents } from "./eventStorage.js";
 
-const filePath = path.resolve("events.json");
 
-// Helper to read events
-function readEvents() {
-  const data = fs.readFileSync(filePath);
-  return JSON.parse(data);
-}
-
-// Helper to write events
-function writeEvents(events) {
-  fs.writeFileSync(filePath, JSON.stringify(events, null, 2));
-}
-
-const events = readEvents();
 
 export function getEvents(res) {
+  const events = readEvents();
   res.json(events);
 }
 
 export function getEventDetails(id, res) {
+  const events = readEvents();
   const event = events[id];
   if (!event) {
     return res.status(404).json({ error: "Event not found" });
@@ -29,6 +17,7 @@ export function getEventDetails(id, res) {
 }
 
 export function createEvent(req, res) {
+  const events = readEvents();
   try {
     const { name, description, date, location } = req.body;
 
