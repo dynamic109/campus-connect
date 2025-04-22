@@ -1,20 +1,26 @@
 {
-    "1" : {
-    "name" : "Beach Party",
-    "description" : "A fun day at the beach with games and food.",
-    "date" : "2023-10-01",
-    "location" : "Santa Monica Beach"
-    },
-    "2" : {
-    "name" : "TechSage Hackathon",
-    "description" : "A 48-hour hackathon to build amazing projects.",
-    "date" : "2023-11-05",
-    "location" : "TechSage Campus"
-    },
-    "3" : {
-    "name" : "GDG bootcamp",
-    "description" : "A bootcamp for Google Developer Group members.",
-    "date" : "2023-12-10",
-    "location" : "TechSage Campus"
-    }
+  "1": {
+    "name": "Beach Party",
+    "description": "A fun day at the beach with games and food.",
+    "date": "2023-10-01",
+    "location": "Santa Monica Beach"
+  },
+  "2": {
+    "name": "TechSage Hackathon",
+    "description": "A 48-hour hackathon to build amazing projects.",
+    "date": "2023-11-05",
+    "location": "TechSage Campus"
+  },
+  "3": {
+    "name": "GDG bootcamp",
+    "description": "A bootcamp for Google Developer Group members.",
+    "date": "2023-12-10",
+    "location": "TechSage Campus"
+  },
+  "4": {
+    "name": "Solana Bootcamp",
+    "description": "A deep dive into Solana development.",
+    "date": "2025-05-01",
+    "location": "Virtual"
   }
+}
